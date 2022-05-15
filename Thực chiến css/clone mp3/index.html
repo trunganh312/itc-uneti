@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/icon_web/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="shortcut icon" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.1/images/icon_zing_mp3_60.png" type="image/x-icon">
+    <title>Zing MP3</title>
+</head>
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+          <!-- Header -->
+          <header>
+            <h4>Now playing:</h4>
+            <h2>String 57th & 9th</h2>
+          </header>
+      
+          <!-- CD -->
+          <div class="cd">
+            <div class="cd-thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+            </div>
+            </div>
+        
+            <!-- Control -->
+            <div class="control">
+              <div class="btn btn-repeat">
+                <i class="fas fa-redo"></i>
+              </div>
+              <div class="btn btn-prev">
+                <i class="fas fa-step-backward"></i>
+                </div>
+              <div class="btn btn-toggle-play">
+                <i class="fas fa-pause icon-pause"></i>
+                <i class="fas fa-play icon-play"></i>
+              </div>
+              <div class="btn btn-next">
+                <i class="fas fa-step-forward"></i>
+              </div>
+              <div class="btn btn-random">
+                <i class="fas fa-random"></i>
+              </div>
+          </div>
+      
+          <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+          <input type="range" name="" id="" class="volume" value="100" min="0" max="100" step="1">
+          <audio id="audio" src="./music/Suboi, TLinh -  Tèn Tèn Girls!.mp3"></audio>
+        </div>
+      
+        <!-- Playlist -->
+        <div class="playlist">
+          
+        </div>
+      </div>
+
+      <script src="./app.js"></script>
+</body>
+</html>
